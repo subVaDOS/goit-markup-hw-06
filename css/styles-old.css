@@ -95,11 +95,11 @@ img {
   margin: 0 auto;
 } */
 
-.header-container {
+/* .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 /* logo navigaciya address */
 
@@ -112,7 +112,7 @@ img {
   align-items: center;
   gap: 40px;
 }
-
+/* 
 .hdra-lg {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -128,9 +128,9 @@ img {
 
 .text-lg {
   color: #2e2f42;
-}
+} */
 
-.naviget-link {
+/* .naviget-link {
   text-decoration: none;
 
   font-weight: 500;
@@ -154,15 +154,15 @@ img {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-}
+} */
 
-.naviget-link:hover,
+/* .naviget-link:hover,
 .naviget-link:focus,
 .addr-s-link:hover,
 .addr-s-link:focus,
 .naviget-link.current {
   color: #404bbf;
-}
+} */
 
 .addr-s {
   display: flex;
