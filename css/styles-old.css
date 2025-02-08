@@ -1,4 +1,4 @@
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -62,7 +62,7 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /* visually-hidden {
   position: absolute;
@@ -88,12 +88,12 @@ img {
   top: 0;
   z-index: 1000; */
 }
-
+/* 
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-}
+} */
 
 .header-container {
   display: flex;
