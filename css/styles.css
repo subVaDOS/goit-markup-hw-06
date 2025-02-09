@@ -1233,9 +1233,9 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
   padding: 100px 0;
 }
 .ftr-div-flex {
-  /* display: flex; */
+  display: flex;
   /* align-items: baseline; */
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -1253,8 +1253,9 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
   padding-bottom: 16px;
   /* display: inline-block; */
   /* margin-bottom: 16px; */
-  max-width: 115px;
-  display: block;
+  max-width: 288px;
+  display: flex;
+  justify-content: center;
 }
 
 .text-lg-t {
@@ -1267,13 +1268,13 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
+  max-width: 288px;
 }
 .ftr-container {
-  margin: 0;
-  margin-right: 120px;
+  margin-bottom: 24px;
 }
 .ftr-soc-container {
+  margin-bottom: 72px;
 }
 .p-ftr {
   font-weight: 500;
@@ -1282,6 +1283,7 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  text-align: center;
 }
 .social-list-ftr {
   display: flex;
@@ -1305,10 +1307,18 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
   gap: 24px; */
 }
 .subscribe-container {
-  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.subscribe-label {
+  display: flex;
+  align-items: center;
 }
 .subscribe-input {
-  width: 264px;
+  width: 288px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -1329,7 +1339,12 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 16px;
+
+  text-align: center;
+}
+.btn-cont {
+  display: flex;
+  justify-content: center;
 }
 .subscribe-btn {
   min-width: 165px;
@@ -1337,13 +1352,14 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  cursor: pointer;
+  margin-top: 16px;
+
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
