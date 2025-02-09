@@ -704,7 +704,7 @@ textarea::placeholder {
   margin-bottom: 8px;
 }
 .checkbox-span {
-  width: 16px;
+  min-width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
@@ -718,9 +718,9 @@ textarea::placeholder {
   margin-right: 8px;
 }
 .checkbox-text {
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
+}
+
+.check-span {
 }
 
 .checkbox-icon {
