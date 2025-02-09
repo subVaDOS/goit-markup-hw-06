@@ -39,7 +39,7 @@ address {
   font-style: normal;
 }
 .section {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 button {
   cursor: pointer;
@@ -842,5 +842,145 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
     width: 408px;
     min-height: 584px;
     padding: 72px 24px 24px 24px;
+  }
+}
+
+/* two section */
+
+.description {
+  padding: 96px 0 96px;
+}
+.dscr-container {
+}
+.dscr-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+  margin: 0;
+
+  padding-left: 0;
+}
+
+.dscr-item {
+  width: 100%;
+}
+
+.dscr-icon {
+  display: none;
+}
+
+.dscr-h {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.dscr-item-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    padding: 120px 0 120px;
+  }
+  .dscr-container {
+  }
+  .dscr-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 72px 24px;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .dscr-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .dscr-icon {
+    display: none;
+  }
+
+  .dscr-h {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+
+  .dscr-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .description {
+    padding: 120px 0 120px;
+  }
+  .dscr-container {
+  }
+  .dscr-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0;
+
+    padding-left: 0;
+  }
+
+  .dscr-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .dscr-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+
+    background-color: #f4f4fd;
+    text-align: center;
+    margin-bottom: 8px;
+    padding: 24px 0;
+  }
+
+  .dscr-h {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+
+  .dscr-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
   }
 }
