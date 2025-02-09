@@ -607,7 +607,7 @@ img {
   margin-left: 16px;
 }
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   left: 0;
   top: 0;
@@ -701,7 +701,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-}
+} */
 
 /* form-modal */
 .contact-form {
@@ -709,7 +709,7 @@ img {
   flex-direction: column;
   margin-top: 16px; */
 }
-.form-header {
+/* .form-header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -912,4 +912,4 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
