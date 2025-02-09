@@ -407,12 +407,24 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/Dark-bg-mob@1x-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 320px;
   background-position: center;
   margin: 0 auto;
+}
+@media (max-width: 767px) and (min-device-pixel-ratio: 2),
+  (max-width: 767px) and (min-resolution: 192dpi),
+  (max-width: 767px) and (min-resolution: 2dppx) {
+  .top-block {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/people-office-desc@2x-min.jpg');
+  }
 }
 .h-one {
   font-weight: 700;
@@ -774,7 +786,7 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      url(../images/dark-bg-tabl@1x-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 768px;
@@ -798,7 +810,18 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
     padding: 72px 24px 24px 24px;
   }
 }
-
+@media (min-width: 768px) and (min-device-pixel-ratio: 2),
+  (min-width: 768px) and (min-resolution: 192dpi),
+  (min-width: 768px) and (min-resolution: 2dppx) {
+  .top-block {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/dark-bg-tabl@2x-min.jpg');
+  }
+}
 @media screen and (min-width: 1158px) {
   .top-block {
     padding: 188px 0;
@@ -808,7 +831,7 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      url(../images/people-office-min.jpg);
 
     max-width: 1440px;
   }
@@ -843,6 +866,18 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
     width: 408px;
     min-height: 584px;
     padding: 72px 24px 24px 24px;
+  }
+}
+@media (min-width: 1158px) and (min-device-pixel-ratio: 2),
+  (min-width: 1158px) and (min-resolution: 192dpi),
+  (min-width: 1158px) and (min-resolution: 2dppx) {
+  .top-block {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/people-office-desc@2x-min.jpg');
   }
 }
 

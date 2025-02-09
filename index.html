@@ -194,7 +194,8 @@
           <h2 class="h-two">Our Team</h2>
           <ul class="team-list">
             <li class="item-card">
-              <img srcset="./images/team/team-1-min.jpg, ./images/team/team-1@2x-min.jpg"
+              <img srcset="./images/team/team-1-min.jpg 1x, 
+                        ./images/team/team-1@2x-min.jpg 2x"
                 src="./images/team/team-1-min.jpg"
                 alt="Product Designer"
                 width="264"
@@ -236,7 +237,8 @@
               </div>
             </li>
             <li class="item-card">
-              <img srcset="./images/team/team-2-min.jpg, ./images/team/team-2@2x-min.jpg"
+              <img srcset="./images/team/team-2-min.jpg 1x, 
+                        ./images/team/team-2@2x-min.jpg 2x"
                 src="./images/team/team-2-min.jpg"
                 alt="Frontend Developer"
                 width="264"
@@ -278,7 +280,8 @@
               </div>
             </li>
             <li class="item-card">
-              <img srcset="./images/team/team-3-min.jpg, ./images/team/team-3@2x-min.jpg"
+              <img srcset="./images/team/team-3-min.jpg 1x, 
+                        ./images/team/team-3@2x-min.jpg 2x"
                 src="./images/team/team-3-min.jpg"
                 alt="Marketing"
                 width="264"
@@ -320,7 +323,8 @@
               </div>
             </li>
             <li class="item-card">
-              <img srcset="./images/team/team-4-min.jpg, ./images/team/team-4@2x-min.jpg"
+              <img srcset="./images/team/team-4-min.jpg 1x, 
+                        ./images/team/team-4@2x-min.jpg 2x"
                 src="./images/team/team-4-min.jpg"
                 alt="UI Designer"
                 width="264"
@@ -370,12 +374,21 @@
           <ul class="portfolio-list">
             <li class="lishka-portfolio">
               <div class="box-overley">
-                <img
+                <picture>
+                                
+                                <source srcset="./images/port-mob/port-mob1-min.jpg, ./images/port-mob/port-mob1@2x-min.jpg 2x" 
+                                media="(max-width: 767px)">                            
+                                
+                                <source srcset="./images/port-tab/port-tab1.jpg 1x, ./images/port-tab/port-tab1@2x.jpg 2x" 
+                                media="(max-width: 1157px)">                            
+                               
+                                <source srcset="./images/port-desc/port-desc1-min.jpg 1x, ./images/port-desc/port-desc1@2x-min.jpg 2x" 
+                                media="(min-width: 1158px)">   
+                <img 
                   src="./images/banking-app.jpg"
-                  alt="Banking App"
-                   width="100%"
+                  alt="Banking App" width="100%"
                 />
-
+                </picture>
                 <p class="overley">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -389,11 +402,19 @@
             </li>
             <li class="lishka-portfolio">
               <div class="box-overley">
+                  <picture>
+                                
+                                <source srcset="./images/port-mob/port-mob2-min.jpg, ./images/port-mob/port-mob2@2x-min.jpg 2x" 
+                                media="(max-width: 767px)">
+                                <source srcset="./images/port-tab/port-tab2.jpg 1x, ./images/port-tab/port-tab2@2x.jpg 2x" 
+                                media="(max-width: 1157px)">
+                                <source srcset="./images/port-desc/port-desc2-min.jpg 1x, ./images/port-desc/port-desc2@2x-min.jpg 2x" 
+                                media="(min-width: 1158px)">
                 <img
                   src="./images/pay-marketing.jpg"
-                  alt="Cashless Payment"
-                   width="100%"
+                  alt="Cashless Payment" width="100%"
                 />
+                </picture>
                 <p class="overley">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -407,11 +428,19 @@
             </li>
             <li class="lishka-portfolio">
               <div class="box-overley">
+                <picture>
+                                
+                                <source srcset="./images/port-mob/port-mob3-min.jpg, ./images/port-mob/port-mob3@2x-min.jpg 2x" 
+                                media="(max-width: 767px)">
+                                <source srcset="./images/port-tab/port-tab3.jpg 1x, ./images/port-tab/port-tab3@2x.jpg 2x" 
+                                media="(max-width: 1157px)">
+                                <source srcset="./images/port-desc/port-desc3-min.jpg 1x, ./images/port-desc/port-desc3@2x-min.jpg 2x" 
+                                media="(min-width: 1158px)">
                 <img
                   src="./images/meditation-app.jpg"
-                  alt="Meditation App"
-                   width="100%"
+                  alt="Meditation App" width="100%"
                 />
+                </picture>
                 <p class="overley">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -428,8 +457,7 @@
               <div class="box-overley">
                 <img
                   src="./images/taxi-servis.jpg"
-                  alt="Taxi Service"
-                   width="100%"
+                  alt="Taxi Service" width="100%"
                 />
                 <p class="overley">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -446,8 +474,7 @@
               <div class="box-overley">
                 <img
                   src="./images/screen-ilustration.jpg"
-                  alt="Screen Illustrations"
-                   width="100%"
+                  alt="Screen Illustrations" width="100%"
                 />
                 <p class="overley">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -464,8 +491,7 @@
               <div class="box-overley">
                 <img
                   src="./images/online.jpg"
-                  alt="Online Courses"
-                  width="100%"
+                  alt="Online Courses" width="100%"
                   
                 />
                 <p class="overley">
