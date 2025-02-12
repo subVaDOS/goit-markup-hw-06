@@ -1183,6 +1183,7 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding-left: 0;
   column-gap: 24px;
   row-gap: 48px;
