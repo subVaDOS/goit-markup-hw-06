@@ -800,7 +800,7 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
     margin: 0 auto;
   }
 
-  .top-block .h-one {
+  .h-one {
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
