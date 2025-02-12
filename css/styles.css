@@ -809,6 +809,7 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
     max-width: 496px;
 
     margin-bottom: 36px;
+    padding: 0;
   }
   .modal {
     width: 408px;
@@ -843,6 +844,7 @@ input[type='checkbox']:checked + .checkbox-label .checkbox-span {
   }
   .h-one {
     margin-bottom: 48px;
+    padding: 0;
   }
   .hero-btn {
     font-family: 'Roboto', sans-serif;
@@ -1250,6 +1252,7 @@ only desktop
   background: #2e2f42;
   padding: 100px 0;
 }
+
 .ftr-div-flex {
   display: flex;
   /* align-items: baseline; */
@@ -1398,10 +1401,14 @@ only desktop
 }
 
 @media screen and (min-width: 768px) {
+  .ftr-center {
+  }
   .ftr-div-flex {
     display: flex;
     align-items: baseline;
     justify-content: left;
+    position: relative;
+    right: -75px;
   }
   .subscribe-form {
     display: flex;
@@ -1443,6 +1450,8 @@ only desktop
   .ftr-div-flex {
     display: flex;
     align-items: baseline;
+    position: relative;
+    left: 0;
   }
   .subscribe-form {
     display: flex;
