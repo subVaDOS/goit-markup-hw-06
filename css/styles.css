@@ -423,7 +423,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/people-office-desc@2x-min.jpg');
+      url('../images/Dark-bg-mob@1x-min.jpg');
   }
 }
 .h-one {
@@ -434,7 +434,7 @@ img {
   text-align: center;
   color: #fff;
   max-width: 216px;
-  height: 120px;
+  /* height: 120px; ніколи не обмежувати висоту заголовку*/
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 72px;
