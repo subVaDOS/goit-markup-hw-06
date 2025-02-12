@@ -1448,14 +1448,18 @@ only desktop
     display: flex;
     gap: 24px;
   }
+  .ftr-div-flex {
+    row-gap: 0;
+    column-gap: 0;
+  }
   .subscribe-input {
     width: 264px;
   }
   .ftr-container {
-    margin-right: 100px;
+    margin-right: 120px;
   }
   .ftr-soc-container {
-    margin-right: 55px;
+    margin-right: 80px;
   }
   .ftr-text {
     max-width: 264px;
