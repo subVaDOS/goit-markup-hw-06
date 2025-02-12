@@ -1401,14 +1401,13 @@ only desktop
 }
 
 @media screen and (min-width: 768px) {
-  .ftr-center {
-  }
   .ftr-div-flex {
+    max-width: 600px;
     display: flex;
     align-items: baseline;
     justify-content: left;
-    position: relative;
-    right: -75px;
+    /* position: relative;
+    right: -75px; */
   }
   .subscribe-form {
     display: flex;
@@ -1446,12 +1445,14 @@ only desktop
     max-width: 264px;
   }
 }
+
 @media screen and (min-width: 1158px) {
   .ftr-div-flex {
+    max-width: 1158px;
     display: flex;
     align-items: baseline;
-    position: relative;
-    left: 0;
+    /* position: relative;
+    left: 0; */
   }
   .subscribe-form {
     display: flex;
