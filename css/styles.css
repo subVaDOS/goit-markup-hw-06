@@ -719,7 +719,7 @@ textarea::placeholder {
 .checkbox-conteiner {
   display: flex;
   justify-content: center;
-
+  align-items: center;
   margin-bottom: 8px;
 }
 .checkbox-span {
